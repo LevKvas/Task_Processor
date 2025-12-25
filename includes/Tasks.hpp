@@ -1,7 +1,5 @@
 #pragma once
 
-#include "ResultHolder.hpp"
-
 
 class Task {
 public:
@@ -18,16 +16,14 @@ public:
     MathTask();
     void execute() override;
     [[nodiscard]] std::string getId() const override;
-private:
-    ResultHolder<double> resultHolder;
 };
 
 /**
 * Plot graph
 */
-class Visualization final: public Task {
+class VisualizationTask final: public Task {
 public:
-    Visualization();
+    VisualizationTask();
     void execute() override;
     [[nodiscard]] std::string getId() const override;
 };
