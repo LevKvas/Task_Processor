@@ -1,0 +1,57 @@
+# CLion
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# CMake
+cmake-build-*/
+build/
+out/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Executables
+main
+*.out
+*.app
+
+# Debug files
+*.pdb
+*.idb
+*.ilk
+
+# Dependency files
+*.d
+
+# Backup files
+*~
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+*.gcda
+*.gcno
+*.gcov
+
+# Logs
+*.log
+
+# VS Code (если используете)
+.vscode/
